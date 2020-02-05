@@ -3,18 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PrincipalComponent } from './principal/principal.component';
 import { TopoComponent } from './topo/topo.component';
-import { PainelComponent } from './painel/painel.component';
 import { RodapeComponent } from './rodape/rodape.component';
+import { HomeComponent } from './home/home.component';
+import { NavNewsComponent } from './nav-news/nav-news.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PrincipalComponent,
     TopoComponent,
-    PainelComponent,
-    RodapeComponent
+    RodapeComponent,
+    HomeComponent,
+    NavNewsComponent
   ],
   imports: [
     BrowserModule,
