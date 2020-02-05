@@ -1,22 +1,17 @@
-nav ul {
-  marin: 0;
-  padding: 0;
-  list-style: none;
-}
-nav li {
-  display: inline-block;
-}
-nav a {
+/* Error: expected ":".
+ *    ,
+ * 26 | $equals-heights
+ *    |                ^
+ *    '
+ *   styles.sass 26:16  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
   display: block;
-  padding: 6px 12px;
-  text-decoration: none;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected ":".\a    \2577 \a 26 \2502  $equals-heights\a    \2502                 ^\a    \2575 \a   styles.sass 26:16  root stylesheet';
 }
-
-/* Estilos globais 
- *  https://colorhunt.co/palette/169363 - > Pallete */
-body {
-  font: 100% Helvetica, sans-serif;
-  color: #333;
-}
-
-/*# sourceMappingURL=style.sass.map */
