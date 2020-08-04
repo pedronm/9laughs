@@ -1,13 +1,13 @@
-package br.com.ninelaughs;
+package ninelaugh.api.ninelaugh;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class NineLaughsApplication {
+public class NinelaughApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(NineLaughsApplication.class, args);
+		SpringApplication.run(NinelaughApplication.class, args);
 	}
 
 }
